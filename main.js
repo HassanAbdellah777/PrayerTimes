@@ -24,7 +24,7 @@ selectedCity.addEventListener("change", () => {
       setData("الاقصر");
       break;
     case 3:
-      setData("أسوان");
+      setData("اسوان");
       break;
   }
 });
