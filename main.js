@@ -14,17 +14,17 @@ let selectedCity = document.getElementById("city");
 //Change City
 selectedCity.addEventListener("change", () => {
   switch (selectedCity.value) {
-    case 0:
-      setData("القاهرة");
+    case "القاهرة":
+      setData("Cairo");
       break;
-    case 1:
-      setData("الاسكندرية");
+    case "الاسكندرية":
+      setData("Alexandria");
       break;
-    case 2:
-      setData("الاقصر");
+    case "الاقصر":
+      setData("Luxor");
       break;
-    case 3:
-      setData("اسوان");
+    case "اسوان":
+      setData("Aswan");
       break;
   }
 });
