@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Prayer Times</title>
+  </head>
+  <body>
+    <div class="prayer-time">
+      <div class="bg-img">
+        <img
+          src="imgs/david-billings-EwcvNe53bdM-unsplash (1).jpg"
+          alt="mosque back ground image"
+        />
+      </div>
+      <div class="container">
+        <div class="head-sec">مواقيت الصلاة مصر</div>
+        <div class="date-sec">
+          <div class="day">الوقت <span></span></div>
+          <div class="georgian">التقويم الميلادي <span></span></div>
+          <div class="hijri">التقويم الهجري <span></span></div>
+        </div>
+        <div class="city-sec">
+          <div class="location-data">
+            <label for="city">المدينة</label>
+            <select name="city" id="city">
+              <option class="city-option" value="القاهرة">القاهرة</option>
+              <option class="city-option" value="الاسكندرية">الاسكندرية</option>
+              <option class="city-option" value="الاقصر">الاقصر</option>
+              <option class="city-option" value="اسوان">اسوان</option>
+            </select>
+            <!-- <div class="country">
+              البلد / المدينة :<span> القاهرة / مصر</span>
+            </div> -->
+            <button class="change-city" type="button">تغيير</button>
+          </div>
+        </div>
+        <div class="prayer-sec">
+          <ul class="times">
+            <li class="fajr">الفجر <span></span></li>
+            <li class="sunrise">الشروق <span></span></li>
+            <li class="duhr">الظهر <span></span></li>
+            <li class="asr">العصر <span></span></li>
+            <li class="maghrib">المغرب <span></span></li>
+            <li class="ishaa">العشاء <span></span></li>
+          </ul>
+        </div>
+        <div class="footer-sec">
+          إنَّ الصَّلَاةَ كَانَتْ عَلَى الْمُؤْمِنِينَ كِتَابًا مَوْقُوتًا
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
