@@ -10,22 +10,21 @@ let asr = document.querySelector(".asr span");
 let maghrib = document.querySelector(".maghrib span");
 let ishaa = document.querySelector(".ishaa span");
 let selectedCity = document.getElementById("city");
-let changeCityBtn = document.querySelector(".change-city");
 
 //Change City
-changeCityBtn.addEventListener("click", () => {
-  switch (selectedCity.selectedIndex) {
+selectedCity.addEventListener("change", () => {
+  switch (selectedCity.value) {
     case 0:
-      setData("Cairo");
+      setData("القاهرة");
       break;
     case 1:
-      setData("Alexandria");
+      setData("الاسكندرية");
       break;
     case 2:
-      setData("Luxor");
+      setData("الاقصر");
       break;
     case 3:
-      setData("Aswan");
+      setData("أسوان");
       break;
   }
 });
