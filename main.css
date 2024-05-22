@@ -44,7 +44,7 @@ ul {
 }
 .bg-img img {
   position: absolute;
-  width: 60%;
+  width: 40%;
   left: 50%;
   transform: translateX(-50%);
   height: 100%;
