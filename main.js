@@ -36,7 +36,7 @@ function init() {
 // Fetching Data
 async function setData(city) {
   const responseData = await fetch(
-    `http://api.aladhan.com/v1/timingsByCity?city=${city}&country=Egypt&method=5`
+    `https://api.aladhan.com/v1/timingsByCity?city=${city}&country=Egypt&method=5`
   );
   const response = await responseData.json();
   console.log(response);
