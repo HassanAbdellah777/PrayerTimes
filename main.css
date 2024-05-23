@@ -1,5 +1,5 @@
 :root {
-  --main-padding: 10px;
+  --main-padding: 5px;
 }
 *,
 *::before,
@@ -63,7 +63,7 @@ ul {
 
 .container {
   position: absolute;
-  min-width: 350px;
+  min-width: 300px;
   padding: 10px;
   top: 50%;
   left: 50%;
@@ -97,7 +97,8 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  font-size: 16px;
+  font-size: 14px;
+
   padding: 5px 10px;
   gap: 5px;
 }
@@ -120,6 +121,7 @@ ul {
   align-items: center;
   justify-content: space-between;
   /* padding: 10px 30px; */
+
   font-size: 16px;
 }
 
@@ -138,7 +140,7 @@ ul {
   color: white;
   background-color: #79624b6c;
 
-  padding: 5px 12px;
+  padding: 2px 12px;
   font-size: 16px;
   font-weight: bold;
   outline: none;
