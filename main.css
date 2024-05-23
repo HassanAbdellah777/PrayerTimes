@@ -97,8 +97,7 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  font-size: 14px;
-
+  font-size: 13px;
   padding: 5px 10px;
   gap: 5px;
 }
